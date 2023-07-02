@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/The-Daily-Times/static/css/main.2e909218.css",
+    "main.js": "/The-Daily-Times/static/js/main.e6a1edc1.js",
+    "static/js/787.4c026eef.chunk.js": "/The-Daily-Times/static/js/787.4c026eef.chunk.js",
+    "index.html": "/The-Daily-Times/index.html",
+    "main.2e909218.css.map": "/The-Daily-Times/static/css/main.2e909218.css.map",
+    "main.e6a1edc1.js.map": "/The-Daily-Times/static/js/main.e6a1edc1.js.map",
+    "787.4c026eef.chunk.js.map": "/The-Daily-Times/static/js/787.4c026eef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e909218.css",
+    "static/js/main.e6a1edc1.js"
+  ]
+}
