@@ -1,0 +1,146 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+body {
+  background-color: #9bbade;
+}
+
+.container {
+  /* border: 3px solid red; */
+  border-radius: 10px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem ;
+  padding: 4rem;
+}
+
+.container .header {
+  border: 3px solid #00abe4;
+  padding: 2rem;
+  background-color: #00ABE4;
+  border-radius: 10px;
+}
+.container .header h1{
+    border: 4px solid dodgerblue;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+    
+    font-size: 2.2rem;
+    margin-bottom: 5rem;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.container .header .search-form{
+    margin: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .header .search-form .search-input {
+    margin: 2rem 0 1rem 0;
+    height: 2.5rem;
+    font-size: 20px;
+    text-align: center;
+
+  width: 25rem;
+  border-radius: 5px;
+}
+
+.container .header .search-form .search-input::placeholder{
+    text-align: center;
+    font-size: 18px;
+}
+.container .header .search-form button{
+    height: 2.2rem;
+  width: 10rem;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+
+    /* color: dodgerblue; */
+    /* background-color: red; */
+}
+
+
+
+
+
+/* after search part starts */
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 3px solid dodgerblue; */
+    /* width: 95vw; */
+
+}
+
+.container2 .pagination{
+    margin-bottom: 3rem;
+    
+}
+
+.container2 .pagination button{
+    height: 2.5rem;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    cursor: pointer;
+}
+
+.card{
+    /* border: 3px dashed gray; */
+    /* background-color: palevioletred; */
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 2rem;
+
+    
+
+}
+
+.card .card-img-top{
+    width: 50vw;
+}
+
+.card .card-body{
+    /* background-color: aqua; */
+    padding: 1.5rem;
+}
+
+.card .card-body h5{
+    font-size: 2rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.card .card-body p{
+    font-size: 1.4rem;
+}
+
+.card .card-body button{
+    height: 2rem;
+    background-color: #11dddd;
+    font-weight: bold;
+}
+
+.card .card-body button a{
+    text-decoration: none;
+}
+
+.card .card-body hr{
+    max-width: 50vw;
+    margin: 3rem 0;
+    height: 3px;
+    background-color: #000;
+}
