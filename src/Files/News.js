@@ -106,6 +106,11 @@ export default function News() {
                       ? element.urlToImage
                       : "https://ichef.bbci.co.uk/news/1024/branded_news/812D/production/_130196033_dc5bc9dea26cabf72f5fbf001ec25d7965b579af6_677_2587_14551000x563.jpg"
                   }
+                  link={
+                    element.url
+                      ? element.url
+                      : "https://www.fool.com.au/2023/07/02/2-of-the-best-etfs-for-asx-investors-to-buy-in-july/"
+                  }
                 />
               </div>
             ))}
