@@ -3,7 +3,10 @@
 
 
 body {
-  background-color: #9bbade;
+  /* background-color: #9bbade; */
+    background-image:url("./bgroundlpu.JPG");
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
 }
 
 .container {
@@ -19,9 +22,14 @@ body {
 
 .container .header {
   border: 3px solid #00abe4;
-  padding: 2rem;
-  background-color: #00ABE4;
+  padding: 4rem;
+  width: 50rem;
+  /* background-color: #00ABE4; */
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
+  opacity: 0.8;
+  box-shadow: 5px 5px 20px dodgerblue;
+  
 }
 .container .header h1{
     border: 4px solid dodgerblue;
@@ -29,9 +37,10 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
   border-radius: 10px;
+  
     
     font-size: 2.2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     color: white;
     background-color: dodgerblue;
 }
@@ -44,7 +53,7 @@ body {
     align-items: center;
 }
 .container .header .search-form .search-input {
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 0 2rem 0;
     height: 2.5rem;
     font-size: 20px;
     text-align: center;
@@ -63,11 +72,21 @@ body {
   font-size: 15px;
   border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
+ 
+  background-color: dodgerblue;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 
     /* color: dodgerblue; */
     /* background-color: red; */
 }
+.container .header .search-form button:hover{
+    background-color: rgb(135, 192, 248);
+}
+.container .header .search-form button:active{
+    background-color: dodgerblue;
+}
+
 
 
 
@@ -93,9 +112,11 @@ body {
 
 .container2 .pagination button{
     height: 2.5rem;
-    padding: 0.5rem;
+    padding: 0.7rem;
     margin: 0.2rem;
     cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
 }
 
 .card{

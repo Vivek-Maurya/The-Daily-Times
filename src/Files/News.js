@@ -12,7 +12,7 @@ export default function News() {
 
   const getNews = async () => {
     let url = await fetch(
-      `https://newsapi.org/v2/everything?q=${searchnews}&sortBy=publishedAt&apiKey=2db64be6be914a0abbb68ae75c8df9a4&pageSize=${pageSize}&page=${currentPage}&q=cricket`
+      `https://newsapi.org/v2/everything?q=${searchnews}&sortBy=publishedAt&apiKey=66256ee4a0954c0e8b8df275b46c6e12&pageSize=${pageSize}&page=${currentPage}&q=cricket`
     );
     let jsonData = await url.json();
     setNews(jsonData.articles);

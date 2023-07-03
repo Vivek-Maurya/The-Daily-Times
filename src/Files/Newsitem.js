@@ -9,7 +9,7 @@ export default function Newsitem(props) {
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.description}</p>
-          <button><a href={props.link} className="btn btn-primary">
+          <button><a href={props.link} target="_blank" className="btn btn-primary">
             Read more...
           </a></button>
           <hr></hr>
